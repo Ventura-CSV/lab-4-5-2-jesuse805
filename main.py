@@ -11,7 +11,7 @@ def main():
         num = random.randint(0,100)
         numbers.append(num)
         total = total + num
-        if total > 100:
+    if total > 100:
             total = total - numbers[len(numbers)- 1]
         
     
