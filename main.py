@@ -8,9 +8,9 @@ def main():
     Code Your Program here
     """
     while total <= 100:
-        numRan = random.randint(0,100)
-        numbers.append(numRan)
-        total = total + numRan
+        num = random.randint(0,100)
+        numbers.append(num)
+        total = total + num
         if total > 100:
             total = total - numbers[len(numbers)- 1]
         
