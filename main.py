@@ -1,6 +1,5 @@
 import random
 
-
 def main():
     total = 0
     numbers = []
