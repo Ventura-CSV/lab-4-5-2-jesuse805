@@ -11,14 +11,14 @@ def main():
     while total <= 100:
         numRan = random.randint(0,100)
         numbers.append(numRan)
-        total += num
+        total += numRan
     
     """
     ########################################
     """
 
     print(f'The random values are {numbers}')
-    print(f'The total is {total}')
+    print(f'The total sum is {total}')
 
     ########################################
     # Do not delete the return statement
