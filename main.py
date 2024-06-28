@@ -8,7 +8,9 @@ def main():
     ########################################
     Code Your Program here
     """
-    while total <= 100
+    while total <= 100:
+        numRan = random.ran(0,100)
+        numbers.(numRan)
     
     
     """
