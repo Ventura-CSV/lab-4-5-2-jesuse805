@@ -8,17 +8,17 @@ def main():
     Code Your Program here
     """
     while total <= 100:
-        numRan = random.randint(0,100)
-        numbers.append(numRan)
-        total += numRan
-        sum =total - numbers[-1]
+        num = random.randint(0,100)
+        if total + num > 100:
+            break
+        numbers.append(num)
+        total += num
     
     """
     ########################################
     """
 
     print(f'The random values are {numbers}')
-    print(f'Total sum of random numbers {sum}')
     print(f'The total is {total}')
 
     ########################################
