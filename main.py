@@ -9,9 +9,9 @@ def main():
     Code Your Program here
     """
     while total <= 100:
-        numRan = random.ran(0,100)
-        numbers.(numRan)
-    
+        numRan = random.randint(0,100)
+        numbers.append(numRan)
+        total += num
     
     """
     ########################################
