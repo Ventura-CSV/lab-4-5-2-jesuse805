@@ -12,7 +12,7 @@ def main():
         numbers.append(numRan)
         total = total + numRan
         if total > 100:
-            total = total - numbers[lens(numbers)- 1]
+            total = total - numbers[len(numbers)- 1]
         
     
     """
